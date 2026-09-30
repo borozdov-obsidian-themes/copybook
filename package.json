@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-copybook",
+  "private": true,
+  "description": "An open notebook in classroom morning light: hairline-ruled cards, three tiers of grey, and one confident blue accent.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
